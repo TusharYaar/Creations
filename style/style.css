@@ -21,7 +21,8 @@ header a {
   {
     background: rgb(110, 107, 113);
     height: 300px;
-    width :  50%;
+    border-radius: 30px;
+    width :  25%;
     border: 5px white solid;
     padding: 10px;
     margin-top: 20px;
@@ -31,23 +32,35 @@ header a {
 }
 @media (max-width: 1199px) {
   .block
-  {
+  { position: relative;
     background: rgb(110, 107, 113);
-    height: 300px;
+    height: auto;
     width : 100%;
     border: 5px white solid;
     padding: 10px;
     margin-top: 20px;
     float: left;
   }
+  .block:hover {
+    background-color: rgb(118, 136, 152);
+  }
 
 }
 
 .block  h2 {
   font-size: 20px;
-  float: right;
   margin: 0px;
   color: black;
+  position:
+  top: 80%;
+}
+.block  h3 {
+  clear :left;
+  font-size: 16px;
+  float: left;
+  margin: 0px;
+  color: black;
+  padding-left: 2%
 }
 a {
   text-decoration: none;
